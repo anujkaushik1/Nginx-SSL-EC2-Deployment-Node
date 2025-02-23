@@ -44,7 +44,7 @@ sudo vim /etc/nginx/sites-available/default
 ```
 Add the following to the location part of the server block
 ```
-    server_name yourdomain.com www.yourdomain.com;
+    server_name anuj-testing.duckdns.org www.anuj-testing.duckdns.org;
 
     location / {
         proxy_pass http://localhost:8001; #whatever port your app runs on
